@@ -5,7 +5,6 @@ import {
 	addDotsToString,
 	objectEntries,
 } from '../index';
-
 // changeStringCase() tests
 describe('changeStringCase()', () => {
 	describe('When the string words are on different register', () => {
@@ -32,7 +31,7 @@ describe('changeStringCase()', () => {
 		})
 	});
 });
-
+// sumOfArray()
 describe('sumOfArray()', () => {
 	describe.each([
 		{
@@ -74,7 +73,6 @@ describe('sumOfArray()', () => {
 		});
 	});
 });
-
 // divisibleBy() tests
 describe('divisibleBy()', () => {
 	describe('Checking a numerical array with even and odd numbers', () => {
@@ -120,7 +118,6 @@ describe('divisibleBy()', () => {
 		});
 	});
 });
-
 // AddToString() tests
 describe('addDotsToString()', () => {
 	describe('Looks for empty string as a first argument', () => {
@@ -154,7 +151,6 @@ describe('addDotsToString()', () => {
 		})
 	});
 });
-
 // objectEntries() tests
 describe('objectEntries()', () => {
 	describe.each([
